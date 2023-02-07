@@ -6,7 +6,7 @@ Lastest version of SB3: [Installation](https://stable-baselines3.readthedocs.io/
 ## Gridworld by PPO
 Gridworld is modified from a custom Gym enviroment ([Link](https://gymnasium.farama.org/tutorials/gymnasium_basics/environment_creation/)).
 Episode ends when the agent reaches the destination.
-See code in [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo).
+View codes in [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo).
 
 | Performance | Description |
 | :---------: | :---------: |
