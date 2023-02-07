@@ -178,9 +178,8 @@ if __name__ == "__main__":
         action = env.action_space.sample()
         observation, reward, done, info = env.step(action)
         if done:
-            env.close()
             break
-    
+    env.close()
     
     
     
