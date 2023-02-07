@@ -9,8 +9,8 @@ Episode ends when the agent reaches the destination.
 
 | Performance | Description |
 | :---------: | :---------: |
-| <img src="images/gridworld_random.gif" width="40%" height="40%"> | Random step |
-| <img src="images/gridworld_ppo.gif" width="40%" height="40%"> | PPO agent |
+| <img src="images/gridworld_random.gif" width="70%" height="70%"> | Random step |
+| <img src="images/gridworld_ppo.gif" width="70%" height="70%"> | PPO agent |
 
 
 
