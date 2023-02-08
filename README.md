@@ -9,6 +9,7 @@ where an episode ends when the agent reaches the destination.
 
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo).
 
+### Video
 | Performance | Description |
 | :---------: | :---------: |
 | <img src="images/gridworld_random.gif" width="70%" height="70%"> | Random step |
@@ -25,6 +26,9 @@ Lukily, 1d observation still works well. </li>
 
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 
+### Log
+
+### Video
 | Performance | Description |
 | :---------: | :---------: |
 | <img src="images/maze_random.gif" width="70%" height="70%"> | Random step |
