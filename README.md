@@ -17,6 +17,10 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/cartpole_ppo).
 | :---------: | :---------: |
 | <img src="images/cartpole_ppo_ep_len_mean.png" width="100%" height="100%"> | <img src="images/cartpole_ppo_ep_rew_mean.png" width="100%" height="100%"> |
 
+## Lunarlander by PPO
+Lunarlander is a classical Gym enviroment, aiming at rocket trajectory optimization 
+(for details see [here](https://gymnasium.farama.org/environments/box2d/lunar_lander/)).
+
 ## Gridworld by PPO
 Gridworld is modified from a custom Gym enviroment (for details see [here](https://gymnasium.farama.org/tutorials/gymnasium_basics/environment_creation/)),
 where an episode ends when the agent reaches the destination.
