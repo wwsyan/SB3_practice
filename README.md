@@ -21,6 +21,8 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/cartpole_ppo).
 Lunarlander is a classical Gym enviroment, aiming at rocket trajectory optimization 
 (for details see [here](https://gymnasium.farama.org/environments/box2d/lunar_lander/)).
 
+See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/lunarlander_ppo)
+
 ### Log
 | Average episode length | Average episode reward |
 | :---------: | :---------: |
