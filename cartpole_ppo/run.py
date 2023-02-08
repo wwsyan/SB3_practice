@@ -3,25 +3,6 @@ import torch as th
 from stable_baselines3 import PPO
 from stable_baselines3.common.env_util import make_vec_env
 from stable_baselines3.common.callbacks import BaseCallback
-
-# Custom callback
-class CustomCallback(BaseCallback):
-    def __init__(self, verbose=0, rollout_buffer=None):
-        super().__init__(verbose)
-        self.rollout_buffer = rollout_buffer
-    
-    def _on_step(self) -> bool:
-        # This is an abstractmethod, you need to redefine
-        return True
-    
-    def _print_buffer_data(self) -> None:
-        print("Rollout_buffer data:")
-        for key, value in self.rollout_buffer.__dict__.items():
-            print(key, "=")
-            print(value, "\n")
-    
-    def _on_rollout_end(self) -> None:
-        self._print_buffer_data()
        
 # Parallel environments
 env = make_vec_env("CartPole-v1", n_envs=4)
@@ -54,7 +35,6 @@ model = PPO(policy="MlpPolicy",
             device="auto",
             _init_setup_model=True)
 
-CB =  CustomCallback(rollout_buffer=model.rollout_buffer)
 model.learn(total_timesteps=10e4)
 model.save("ppo_cartpole")
 
