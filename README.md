@@ -10,10 +10,9 @@ where an episode ends when the agent reaches the destination.
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo).
 
 ### Video
-| Performance | Description |
+| Random step | PPO agent |
 | :---------: | :---------: |
-| <img src="images/gridworld_random.gif" width="70%" height="70%"> | Random step |
-| <img src="images/gridworld_ppo.gif" width="70%" height="70%"> | PPO agent |
+| <img src="images/gridworld_random.gif" width="60%" height="60%"> | <img src="images/gridworld_ppo.gif" width="60%" height="60%"> |
 
 ## Maze by maskable PPO
 Maze is a 2d gridworld-like enviroment.
@@ -27,16 +26,14 @@ Lukily, 1d observation still works well. </li>
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 
 ### Log
-| Plot | Description |
+| Average length of episodes | Average rewards in an episode |
 | :---------: | :---------: |
-| <img src="images/maze_ppo_ep_len_mean.png" width="100%" height="100%"> | Average length of episodes |
-| <img src="images/maze_ppo_ep_rew_mean.png" width="100%" height="100%"> | Average rewards in an episode |
+| <img src="images/maze_ppo_ep_len_mean.png" width="100%" height="100%"> | <img src="images/maze_ppo_ep_rew_mean.png" width="100%" height="100%"> |
 
 ### Video
-| Performance | Description |
+| Random step | PPO agent |
 | :---------: | :---------: |
-| <img src="images/maze_random.gif" width="70%" height="70%"> | Random step |
-| <img src="images/maze_ppo.gif" width="70%" height="70%"> | PPO agent |
+| <img src="images/maze_random.gif" width="50%" height="50%"> | <img src="images/maze_ppo.gif" width="50%" height="50%"> |
 
 
 
