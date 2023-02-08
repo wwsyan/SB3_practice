@@ -13,7 +13,17 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo)
 | <img src="images/gridworld_random.gif" width="70%" height="70%"> | Random step |
 | <img src="images/gridworld_ppo.gif" width="70%" height="70%"> | PPO agent |
 
+## Maze by maskable PPO
+Maze is a 2d gridworld-like enviroment. 
+In this case, 1d observation is applied though it's natural to use a image-like observation.
+The reason is, CnnPolicy require image data to have a minimum size of 36x36.
+Good new is, 1d observation still works well. 
+See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 
+| Performance | Description |
+| :---------: | :---------: |
+| <img src="images/maze_random.gif" width="70%" height="70%"> | Random step |
+| <img src="images/maze_ppo.gif" width="70%" height="70%"> | PPO agent |
 
 
 
