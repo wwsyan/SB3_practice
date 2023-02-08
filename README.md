@@ -26,7 +26,7 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo)
 ### Video
 | Random step | PPO agent |
 | :---------: | :---------: |
-| <img src="images/gridworld_random.gif" width="40%" height="40%"> | <img src="images/gridworld_ppo.gif" width="40%" height="40%"> |
+| <img src="images/gridworld_random_0.gif" width="40%" height="40%"> | <img src="images/gridworld_ppo_0.gif" width="40%" height="40%"> |
 
 ## Maze by maskable PPO
 Maze is a 2d gridworld-like enviroment.
