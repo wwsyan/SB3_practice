@@ -7,6 +7,10 @@ Experimental features based on SB3: [SB3 Contrib](https://stable-baselines3.read
 
 Anything about Gym enviroment: [Gym Documentation](https://www.gymlibrary.dev/).
 
+## Cartpole by PPO
+Cartpole is a classical Gym enviroment (for details see [here](https://gymnasium.farama.org/environments/classic_control/cart_pole/)).
+
+See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/cartpole_ppo).
 
 ## Gridworld by PPO
 Gridworld is modified from a custom Gym enviroment (for details see [here](https://gymnasium.farama.org/tutorials/gymnasium_basics/environment_creation/)),
