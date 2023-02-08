@@ -1,7 +1,11 @@
 # sb3_practice
 Long-term collection of RL practice based on Stable Baselines 3.
 
-Lastest version of SB3: [Installation](https://stable-baselines3.readthedocs.io/en/master/guide/install.html).
+<ul>
+<li>Lastest version of SB3: [Installation](https://stable-baselines3.readthedocs.io/en/master/guide/install.html).</li>
+<li>Experimental features based on SB3: [SB3 Contrib](https://stable-baselines3.readthedocs.io/en/master/guide/sb3_contrib.html) </li>
+<li>Anything about Gym enviroment: [Gym Documentation](https://www.gymlibrary.dev/) 
+</ul>
 
 ## Gridworld by PPO
 Gridworld is modified from a custom Gym enviroment (for details see [here](https://gymnasium.farama.org/tutorials/gymnasium_basics/environment_creation/)),
