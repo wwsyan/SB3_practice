@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 28 20:00:19 2023
-
-@author: WSY
-"""
-
 import gym
 import torch as th
 from stable_baselines3 import PPO
@@ -13,10 +7,6 @@ from stable_baselines3.common.env_util import make_vec_env
 # Parallel environments
 env = make_vec_env("LunarLander-v2", n_envs=4)
 
-# Search PPO parameter in: https://stable-baselines3.readthedocs.io/en/master/modules/ppo.html
-# How to custom policy network: https://stable-baselines3.readthedocs.io/en/master/guide/custom_policy.html
-# A default AC net: dict(pi=[64, 64], vf=[64, 64]) 
-# (check in: https://github.com/DLR-RM/stable-baselines3/blob/master/stable_baselines3/ppo/ppo.py)
 policy_kwargs = dict(activation_fn=th.nn.ReLU,
                      net_arch=dict(pi=[64, 64], vf=[64, 64]))
 model = PPO(policy="MlpPolicy", 
@@ -55,6 +45,6 @@ model = PPO.load("ppo_lunarlander")
 
 obs = env.reset()
 while True:
-    action, _states = model.predict(obs)
+    action, _ = model.predict(obs)
     obs, rewards, dones, info = env.step(action)
     env.render()
