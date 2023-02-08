@@ -31,7 +31,7 @@ Lukily, 1d observation still works well. </li>
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 
 ### Log
-| Average length of episodes | Average rewards in an episode |
+| Average episode length | Average episode reward |
 | :---------: | :---------: |
 | <img src="images/maze_ppo_ep_len_mean.png" width="100%" height="100%"> | <img src="images/maze_ppo_ep_rew_mean.png" width="100%" height="100%"> |
 
