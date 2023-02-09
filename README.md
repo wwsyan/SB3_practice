@@ -44,7 +44,7 @@ Maze is a 2d gridworld-like enviroment.
 <ul>
 <li>Masking invalid actions greatly speeds up the training process of neural network. </li>
 <li>1d observation is applied though it's natural to use a image-like observation.
-The reason is, CnnPolicy require image data to have a minimum size of 36x36.
+The reason is, sb3 CnnPolicy require image data to have a minimum size of 36x36.
 Lukily, a flattened observation still works well. </li>
 </ul>
 
