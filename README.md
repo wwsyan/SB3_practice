@@ -1,4 +1,4 @@
-# sb3_practice
+# SB3_practice
 Long-term collection of RL practice in the framework of Stable Baselines 3.
 
 Lastest version of SB3: [Installation](https://stable-baselines3.readthedocs.io/en/master/guide/install.html).
@@ -44,7 +44,7 @@ Maze is a 2d gridworld-like enviroment.
 <ul>
 <li>Masking invalid actions greatly speeds up the training process of neural network. </li>
 <li>1d observation is applied though it's natural to use a image-like observation.
-The reason is, sb3 CnnPolicy require image data to have a minimum size of 36x36.
+The reason is, SB3 CnnPolicy require image data to have a minimum size of 36x36.
 Lukily, a flattened observation still works well. </li>
 </ul>
 
