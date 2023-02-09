@@ -44,7 +44,7 @@ Maze is a 2d gridworld-like enviroment.
 <ul>
 <li>Masking invalid actions greatly speeds up the training process of neural network. </li>
 <li>1d observation is applied though it's natural to use a image-like observation.
-The reason is, SB3 CnnPolicy require image data to have a minimum size of 36x36.
+The reason is, SB3 `CnnPolicy` require image data to have a minimum size of 36x36.
 Lukily, a flattened observation still works well. </li>
 </ul>
 
@@ -77,7 +77,20 @@ Specifically, we:
   <li>Recompute <code>returns</code> and <code>advantages</code>.</li>
 </ul>
 
-See codes [here]()
+See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo_da).
+
+### Video
+| Training enviroment | Evaluation enviroment |
+| :---------: | :---------: |
+| <img src="images/maze_ppo_da_8w_orign.gif" width="50%" height="50%"> | <img src="images/maze_ppo_da_18w_flip.gif" width="50%" height="50%"> |
+
+Something interesting is, while the agent performed perfectly in the training environment, it got **stuck** in the evaluation environment.
+**KL divergence** explains this, large value of `approx_kl` seems to indicate that the network is not fully fitted:
+
+| total_steps = 8e4| total_steps = 18e4 |
+| :---: | :---: |
+| approx_kl = 3.1942 |  approx_kl = 0.1253 |
+| <img src="images/maze_ppo_da_8w_flip.gif" width="50%" height="50%"> | <img src="images/maze_ppo_da_18w_flip.gif" width="50%" height="50%"> |
 
 
 
