@@ -71,10 +71,10 @@ In order to achieve this goal, we build a custom callback and handle the rollout
 It's not an easy job because we have to handle 9 kinds of data: `observations`, `actions`, `action_masks`, `values`, `log_probs`, `returns`, `advantages`, `episode_starts`, `rewards`.
 Specifically, we:
 <ul>
-  <li>Expand `observations`, `actions` and `action_masks`.</li>
-  <li>Share `episode_starts` and `rewards`.</li>
-  <li>Recompute `values` and `log_probs`.</li>
-  <li>Recompute `returns` and `advantages`</li>
+  <li>Expand <code>observations</code>, <code>actions</code> and <code>action_masks</code>.</li>
+  <li>Share <code>episode_starts</code> and <code>rewards</code>.</li>
+  <li>Recompute <code>values</code> and <code>log_probs</code>.</li>
+  <li>Recompute <code>returns</code> and <code>advantages</code></li>
 </ul>
 
 
