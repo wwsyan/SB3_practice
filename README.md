@@ -63,7 +63,7 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 ## Maze by maskable PPO with Data Augment
 Can the agent make correct decisions if the evaluation environment is different from the training environment?
 Applying data augment in training may help.
-In this case, the evaluation enviroment is a symmetric equivalent transformation of orignal.
+In this case, the evaluation enviroment is a **symmetric equivalent** transformation of orignal.
 An easy idea is that we can generate equivalent batch datas based on orignal batch data.
 
 In order to achieve this goal, we build a custom callback and handle the rollout buffer data directly
@@ -76,6 +76,8 @@ Specifically, we:
   <li>Recompute <code>values</code> and <code>log_probs</code>.</li>
   <li>Recompute <code>returns</code> and <code>advantages</code>.</li>
 </ul>
+
+See codes [here]()
 
 
 
