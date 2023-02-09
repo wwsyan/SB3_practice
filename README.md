@@ -13,7 +13,7 @@ Cartpole is a classical Gym enviroment (for details see [here](https://gymnasium
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/cartpole_ppo).
 
 ### Log
-| Average episode length | Average episode reward |
+| Episode length | Episode reward |
 | :---------: | :---------: |
 | <img src="images/cartpole_ppo_ep_len_mean.png" width="100%" height="100%"> | <img src="images/cartpole_ppo_ep_rew_mean.png" width="100%" height="100%"> |
 
@@ -24,7 +24,7 @@ Lunarlander is a classical Gym enviroment, aiming at rocket trajectory optimizat
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/lunarlander_ppo).
 
 ### Log
-| Average episode length | Average episode reward |
+| Episode length | Episode reward |
 | :---------: | :---------: |
 | <img src="images/lunarlander_ppo_ep_len_mean.png" width="100%" height="100%"> | <img src="images/lunarlander_ppo_ep_rew_mean.png" width="100%" height="100%"> |
 
@@ -51,7 +51,7 @@ Lukily, a flattened observation still works well. </li>
 See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 
 ### Log
-| Average episode length | Average episode reward |
+| Episode length | Episode reward |
 | :---------: | :---------: |
 | <img src="images/maze_ppo_ep_len_mean.png" width="100%" height="100%"> | <img src="images/maze_ppo_ep_rew_mean.png" width="100%" height="100%"> |
 
