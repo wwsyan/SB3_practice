@@ -42,7 +42,7 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/gridworld_ppo)
 ## Maze by maskable PPO
 Maze is a 2d gridworld-like enviroment.
 <ul>
-<li>Masking invalid actions <bold>greatly</bold> speeds up the training process of neural network. </li>
+<li>Masking invalid actions greatly speeds up the training process of neural network. </li>
 <li>1d observation is applied though it's natural to use a image-like observation.
 The reason is, SB3 <code>CnnPolicy</code> require image data to have a minimum size of 36x36.
 Lukily, a flattened observation still works well. </li>
