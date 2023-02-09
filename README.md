@@ -74,7 +74,7 @@ Specifically, we:
   <li>Expand <code>observations</code>, <code>actions</code> and <code>action_masks</code>.</li>
   <li>Share <code>episode_starts</code> and <code>rewards</code>.</li>
   <li>Recompute <code>values</code> and <code>log_probs</code>.</li>
-  <li>Recompute <code>returns</code> and <code>advantages</code></li>
+  <li>Recompute <code>returns</code> and <code>advantages</code>.</li>
 </ul>
 
 
