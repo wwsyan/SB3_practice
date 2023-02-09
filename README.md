@@ -60,6 +60,24 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 | :---------: | :---------: |
 | <img src="images/maze_random.gif" width="50%" height="50%"> | <img src="images/maze_ppo.gif" width="50%" height="50%"> |
 
+## Maze by maskable PPO with Data Augment
+Can the agent make correct decisions if the evaluation environment is different from the training environment?
+Applying data augment in training may help.
+In this case, the evaluation enviroment is a symmetric equivalent transformation of orignal.
+An easy idea is that we can generate equivalent batch datas based on orignal batch data.
+
+In order to achieve this goal, we build a custom callback and handle the rollout buffer data directly
+(See how to customize callback [here](https://stable-baselines3.readthedocs.io/en/master/guide/callbacks.html)) .
+It's not an easy job because we have to handle 9 kinds of data: `observations`, `actions`, `action_masks`, `values`, `log_probs`, `returns`, `advantages`, `episode_starts`, `rewards`.
+Specifically, we:
+<ul>
+  <li>Expand `observations`, `actions` and `action_masks`.</li>
+  <li>Share `episode_starts` and `rewards`.</li>
+  <li>Recompute `values` and `log_probs`.</li>
+  <li>Recompute `returns` and `advantages`</li>
+</ul>
+
+
 
 
 
