@@ -102,7 +102,7 @@ class DataAugmentCallback(BaseCallback):
         
         ############## Data Augment main ##############
         n_steps = self.rollout_buffer.buffer_size
-        n_env = 2 # Original data and augmented data: liplr
+        n_env = 2 # Original data and augmented data: fliplr
         self.rollout_buffer.n_envs = n_env
         
         DA_obs = np.zeros((n_steps, n_env, self.env.observation_space.shape[0]))
