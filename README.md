@@ -68,7 +68,7 @@ An easy idea is that we can generate equivalent batch datas based on orignal bat
 
 In order to achieve this goal, we build a custom callback and handle the rollout buffer data directly
 (See how to customize callback [here](https://stable-baselines3.readthedocs.io/en/master/guide/callbacks.html)) .
-It's not an easy job because we have to handle 9 kinds of data: `observations`, `actions`, `action_masks`, `values`, `log_probs`, `returns`, `advantages`, `episode_starts`, `rewards`.
+We need to handle 9 kinds of data: `observations`, `actions`, `action_masks`, `values`, `log_probs`, `returns`, `advantages`, `episode_starts`, `rewards`.
 Specifically, we:
 <ul>
   <li>Expand <code>observations</code>, <code>actions</code> and <code>action_masks</code>.</li>
