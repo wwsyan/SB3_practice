@@ -64,7 +64,7 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo).
 Can the agent make correct decisions if the evaluation environment is different from the training environment?
 Applying data augment in training may help.
 In this case, the evaluation enviroment is a **symmetric equivalent** transformation of the training enviroment.
-An easy idea is that we can generate equivalent batch datas based on orignal batch data.
+An easy idea is that we can generate equivalent batch datas based on original batch data.
 
 In order to achieve this goal, we build a custom callback and handle the rollout buffer data directly
 (See how to customize callback [here](https://stable-baselines3.readthedocs.io/en/master/guide/callbacks.html)) .
