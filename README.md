@@ -66,7 +66,7 @@ Applying data augment in training may help.
 In this case, the evaluation enviroment is a **symmetric equivalent** transformation of the training enviroment.
 An easy idea is that we can generate equivalent batch datas based on original batch data.
 
-In order to achieve this goal, we build a custom callback and handle the rollout buffer data directly
+In order to achieve this goal, I build a custom callback and handle the rollout buffer data directly
 (See how to customize callback [here](https://stable-baselines3.readthedocs.io/en/master/guide/callbacks.html)) .
 We need to handle 9 kinds of data:
 <ul>
