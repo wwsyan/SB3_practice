@@ -91,6 +91,11 @@ Something interesting is, while the agent performed perfectly in the training en
 | approx_kl = 3.1942 |  approx_kl = 0.1253 |
 | <img src="images/maze_ppo_da_8w_flip.gif" width="50%" height="50%"> | <img src="images/maze_ppo_da_18w_flip.gif" width="50%" height="50%"> |
 
+## CarRacing by PPO
+Place holder.
+
+[Link](https://notanymike.github.io/Solving-CarRacing/)
+
 
 
 
