@@ -86,9 +86,9 @@ See codes [here](https://github.com/wwsyan/sb3_practice/tree/main/maze_ppo_da).
 Something interesting is, while the agent performed perfectly in the training environment, it got **stuck** in the evaluation environment.
 **KL divergence** explains this, large value of `approx_kl` seems to indicate that the network is not fully fitted:
 
-| total_steps = 8e4| total_steps = 18e4 |
+| total_steps = 8e4| total_steps = 15e4 |
 | :---: | :---: |
-| approx_kl = 3.1942 |  approx_kl = 0.1253 |
+| approx_kl = 2.1942 |  approx_kl = 0.1253 |
 | <img src="images/maze_ppo_da_8w_flip.gif" width="50%" height="50%"> | <img src="images/maze_ppo_da_18w_flip.gif" width="50%" height="50%"> |
 
 ## CarRacing by PPO
