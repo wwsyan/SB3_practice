@@ -1,7 +1,7 @@
 # SB3_practice
 Long-term collection of RL practice in the framework of Stable Baselines 3. 
 I will make sure that each example is not the same, each has different processing details
-(except "hello world" enviroment Cartpole and Lunarlander).
+(except "hello world" enviroments: Cartpole and Lunarlander).
 
 Lastest version of SB3: [Installation](https://stable-baselines3.readthedocs.io/en/master/guide/install.html).
 
